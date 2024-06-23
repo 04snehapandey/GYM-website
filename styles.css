@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(back.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: grey;
+    color: black;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+}
+
+.form h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.radio-group,
+.checkbox-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.radio-group label,
+.checkbox-group label {
+    font-weight: normal;
+}
+
+#btn {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: black;
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#btn:hover {
+    background-color: brown;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .form h2 {
+        font-size: 1.2em;
+    }
+}

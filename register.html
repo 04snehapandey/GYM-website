@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Fitness Block</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form">
+            <h2>Register to Avail Offers</h2>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" placeholder="someone@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label>Gender:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender" value="male" required> Male</label>
+                    <label><input type="radio" name="gender" value="female" required> Female</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone">Contact number:</label>
+                <input id="phone" type="number" name="phone" placeholder="Enter your number" required>
+            </div>
+            <div class="form-group">
+                <label for="weight">Weight:</label>
+                <input id="weight" type="number" name="weight" placeholder="Enter your weight in kgs">
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input id="age" type="number" name="age" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <label>Do you want a nutritious healthy diet plan?</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="plan" value="no"> No</label>
+                    <label><input type="checkbox" name="plan" value="yes"> Yes (you have to pay an additional Rs 354)</label>
+                </div>
+            </div>
+            <button type="submit" id="btn">Register</button>
+        </form>
+    </div>
+</body>
+</html>

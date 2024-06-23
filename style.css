@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(bg2.jpg);
+    color: black;
+    background-size: cover;
+ 
+  }
+  .left {
+    display: inline-block;
+    position: absolute;
+    left: 12px;
+    top: 10px;
+  }
+  .left img {
+    width: 120px;
+    filter: invert(100%);
+  }
+  .left div {
+    text-align: center;
+    font-size: 15px;
+    line-height: 15px;
+    font-style: bold;
+    background-color: grey;
+  }
+  .mid {
+    display: block;
+    width: 63%;
+    margin: 23px auto;
+  }
+  .navbar {
+    display: inline-block;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+  .navbar li {
+    float: left;
+    margin: 7px 12px;
+    list-style: none;
+    font-size: 19px;
+  }
+  .navbar li a {
+    text-decoration: none;
+    color: black;
+    padding: 3px 3px;
+  }
+  .navbar li a:hover,
+  .navbar li a.active {
+    text-decoration: underline;
+    color: brown;
+  }
+  .right {
+    float: right;
+    position: absolute;
+    top: 22px;
+    right: 23px;
+  }
+  .btn {
+    padding: 9px;
+    color: black;
+    background-color: grey;
+    border: 2px black;
+    border-radius: 16px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    color: brown;
+  }
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
